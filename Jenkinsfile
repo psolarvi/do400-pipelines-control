@@ -4,6 +4,7 @@ pipeline {
       label 'nodejs'
     }
   }
+
   stages {
     stage('Backend Tests') {
       steps {
